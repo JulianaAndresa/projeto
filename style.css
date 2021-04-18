@@ -1,0 +1,45 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjhheucWm_5rgrn2TZFZJ4yIvAPhiljc03A&usqp=CAU);
+}
+.titulo-principal{
+    text-align:center;
+    background-color:lightcoral;
+    padding: 20px;
+}
+.firsthead{
+    color: black;
+    text-shadow: 2px 2px 5px lightcoral;
+}
+.firstp{
+    color: black;
+    font-size: large;
+}
+.boxtype{
+    width: 400;
+    border: 20px solid green;
+    padding: 100;
+    margin: 50px;
+}
+.boxtype2{
+    width: 400;
+    border: 20px solid lightsalmon;
+    padding: 100;
+    margin: 50px;
+}
+.boxtype3{
+    width: 400;
+    border: 20px solid brown;
+    padding: 100;
+    margin: 50px;
+}
+ul{
+    font-family: cursive;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 12px;
+    border-color: lightcoral;
+}
+iframe{
+    outline-style: dotted;
+    outline-color: black;
+}
