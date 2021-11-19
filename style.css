@@ -1,5 +1,15 @@
+html body {
+    background-color: rgb(255, 228, 255);
+}
+.row{
+    width: 200vh;
+    right: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 body{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUjhheucWm_5rgrn2TZFZJ4yIvAPhiljc03A&usqp=CAU);
+    background-color:rgba(209, 145, 145, 0.445)
 }
 .titulo-principal{
     text-align:center;
@@ -16,7 +26,7 @@ body{
 }
 .boxtype{
     width: 400;
-    border: 20px solid green;
+    border: 20px solid rgb(92, 153, 92);
     padding: 100;
     margin: 50px;
 }
@@ -28,7 +38,7 @@ body{
 }
 .boxtype3{
     width: 400;
-    border: 20px solid brown;
+    border: 20px solid rgb(185, 81, 81);
     padding: 100;
     margin: 50px;
 }

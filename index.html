@@ -3,6 +3,8 @@
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +16,37 @@
         <i>
             <h1 id="teste" class="titulo-principal">Hidratações Caseiras para o cabelo</h1>
         </i>
-        <button type="button" onclick='document.getElementById("teste").innerHTML = "Bem Vindos"'>Clique Aqui!</button>
-        <p style="text-align: center;">
-            <img class="imagem" src="https://salonline.com.br/wp-content/uploads/2019/04/shutterstock_769310776.jpg"
-                height="500" title="exemplos de produtos caseiros">
-        </p>
+        <button type="button" onclick='document.getElementById("teste").innerHTML = "Bem Vindos"'
+            class="btn btn-outline-danger">Clique Aqui!</button>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <img src="images/imagem01.jpg" class="w-100 shadow-1-strong rounded mb-4" title="mel" alt="" />
+
+                <img src="images/imagem02.jpg" class="w-100 shadow-1-strong rounded mb-4" title="abacate" alt="" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="images/imagem03.jpg" class="w-100 shadow-1-strong rounded mb-4" title="amido de milho"
+                    alt="" />
+
+                <img src="images/imagem04.jpg" class="w-100 shadow-1-strong rounded mb-4" title="coco" alt="" />
+            </div>
+
+            <div class="col-lg-4 mb-4 mb-lg-0">
+                <img src="images/imagem05.jpg" class="w-100 shadow-1-strong rounded mb-4" title="oléo de rícino"
+                    alt="" />
+
+                <img src="images/imagem06.jpg" class="w-100 shadow-1-strong rounded mb-4" title="azeite de oliva"
+                    alt="" />
+            </div>
+        </div>
+
     </header>
     <hr>
     <header>
         <h2 class="firsthead">Sobre o que iremos abordar?</h2>
-        <p class="firstp">
+        <p class="lead" class="firstp">
             <b>Certamente, a hidratação é um dos tratamentos capilares mais conhecidos de
                 todos os tempos.
                 Pois sempre que pensamos em cuidar das madeixas, ela é a primeira coisa que vem à mente e não é à toa.
@@ -67,7 +90,7 @@
     <div class="boxtype2">
         <section>
             <header>
-                <h2 style="color: tomato;">Hidratação com vinagre de maçã</h2>
+                <h2 style="color: tomato;">Hidratação com Vinagre de Maçã</h2>
                 <p style="font-size: larger;">O vinagre de maçã é aquele produtinho indispensável para quem deseja
                     exibir
                     fios saudáveis e bonitos.
@@ -113,6 +136,15 @@
         </section>
     </div>
     <script type="text/javascript" src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
